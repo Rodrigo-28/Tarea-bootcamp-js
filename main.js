@@ -25,18 +25,11 @@ if(arr.length ===0) return console.error("el arreglo esta vacio");
    
      console.log("el mayor de mi array es "+mayor);
      console.log("el menor de mi array es "+menor);
-     // si los dos numeros son negativos... creo q no se rompe...
-     if(Math.sign(mayor)== -1){
-            mayor=mayor*-1;
-    }
-    if(Math.sign(menor)==-1){
-        menor=menor*-1;
-    }
-    
+  
      let resultado= (mayor)-(menor);
  console.log("la resta de los dos numeros encontrados en el arreglo es "+ resultado);
 };
-//mayorMenosMenor([-1,-55,-44,-4]);
+mayorMenosMenor([-1,-55,-44,-4]);
 
 function ingredienteEnMalEstado(menu, comida, ingrediente) {
     // El ingrediente de cierta comida está en mal estado. Hay que sacar los ingredientes próximos a éste,
@@ -240,4 +233,4 @@ function invertirLetras(frase="") {
     }
     console.log(fraseAux.join());
 };
-invertirLetras("DGagDG");
+//invertirLetras("DGagDG");
